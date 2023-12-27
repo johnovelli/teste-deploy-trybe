@@ -1,10 +1,12 @@
+import { Route, Routes } from 'react-router-dom';
+import Main from './pages/Main';
 import './App.css';
 
 function App() {
   return (
-    <div>
-      <h2>TESTE</h2>
-    </div>
+    <Routes>
+      <Route path="/teste-deploy-trybe/" element={ <Main /> } />
+    </Routes>
   );
 }
 
